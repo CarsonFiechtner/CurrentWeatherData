@@ -1,2 +1,5 @@
 language: java
-install:true
+jdk:
+  - openjdk7
+  - oraclejdk7
+before_script: "cd lib"
