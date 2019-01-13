@@ -1,4 +1,4 @@
 language: java
 jdk: oraclejdk8
 install: true
-script: ./src/test/WeatherApp_Test.java
+before_script: cd src/test
