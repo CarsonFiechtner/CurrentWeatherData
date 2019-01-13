@@ -1,4 +1,4 @@
 language: java
 jdk: oraclejdk8
 install: true
-script: ant src/test
+before_script: cd src
