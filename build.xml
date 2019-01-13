@@ -27,20 +27,20 @@
     </path>
     <path id="CurrentWeatherData.classpath">
         <pathelement location="bin"/>
-        <pathelement location="commons-io-2.6.jar"/>
-        <pathelement location="json-20180813.jar"/>
+        <pathelement location="src/commons-io-2.6.jar"/>
+        <pathelement location="src/json-20180813.jar"/>
         <path refid="JUnit 5.libraryclasspath"/>
     </path>
     <path id="run.WeatherApp.classpath">
         <path refid="CurrentWeatherData.classpath"/>
-        <pathelement location="commons-io-2.6.jar"/>
-        <pathelement location="json-20180813.jar"/>
+        <pathelement location="src/commons-io-2.6.jar"/>
+        <pathelement location="src/json-20180813.jar"/>
         <path refid="JUnit 5.libraryclasspath"/>
     </path>
     <path id="run.WeatherApp_Test.classpath">
         <path refid="CurrentWeatherData.classpath"/>
-        <pathelement location="commons-io-2.6.jar"/>
-        <pathelement location="json-20180813.jar"/>
+        <pathelement location="src/commons-io-2.6.jar"/>
+        <pathelement location="src/json-20180813.jar"/>
         <path refid="JUnit 5.libraryclasspath"/>
     </path>
     <target name="init">

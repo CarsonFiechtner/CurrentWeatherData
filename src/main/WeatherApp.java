@@ -29,7 +29,7 @@ public class WeatherApp {
 			return 1;
 		}
 		
-		System.out.println("Current temperature in " + location + ": " + ((JSONObject) json.get("main")).get("temp") + "°F");
+		System.out.println("Current temperature in " + location + ": " + ((JSONObject) json.get("main")).get("temp") + " F");
 		return 0;
 	}
 	
@@ -58,8 +58,8 @@ public class WeatherApp {
 			}
 			
 			System.out.println("Would you like to check another city? (Y/N)");
-		    String response = input.nextLine();
-			if(response.toLowerCase().equals("y") || response.toLowerCase().equals("yes")) {
+		    	String response = input.nextLine();
+			if(!(response.toLowerCase().equals("y") || response.toLowerCase().equals("yes"))) {
 				running = false;
 				System.out.println("Goodbye!");
 				input.close();
