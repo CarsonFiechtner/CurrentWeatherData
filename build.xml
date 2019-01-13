@@ -72,7 +72,7 @@
     </target>
     <target name="WeatherApp_Test">
         <mkdir dir="${junit.output.dir}"/>
-        <junit fork="yes" printsummary="withOutAndErr">
+        <junit fork="yes" printsummary="on" haltonfailure="yes">
             <formatter type="xml"/>
             <test name="test.WeatherApp_Test" todir="${junit.output.dir}"/>
             <jvmarg line="-ea"/>
