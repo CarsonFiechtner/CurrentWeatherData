@@ -73,7 +73,7 @@
     <target name="WeatherApp_Test">
         <mkdir dir="${junit.output.dir}"/>
         <junit fork="yes" printsummary="on" haltonfailure="yes">
-            <formatter type="xml"/>
+            <formatter type="brief" usefile="false"/>
             <test name="test.WeatherApp_Test" todir="${junit.output.dir}"/>
             <jvmarg line="-ea"/>
             <classpath refid="run.WeatherApp_Test.classpath"/>
